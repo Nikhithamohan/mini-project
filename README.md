@@ -42,4 +42,4 @@ The system takes into account the differences in frequency and amplitude between
 
 ## Conclusion
 This project demonstrates a comprehensive and innovative approach to street lighting, leveraging cutting-edge technologies to create a sustainable, efficient, and citizen-centric solution.
-git add Intelligent_Street_Lighting_System.fzz
+
