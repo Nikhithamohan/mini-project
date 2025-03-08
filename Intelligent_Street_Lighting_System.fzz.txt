@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fritzing version="0.9.3b">
+  <instances>
+    <!-- Solar Panel -->
+    <instance moduleIdRef="Solar_Panel" modelIndex="0">
+      <properties>
+        <property name="label">Solar Panel</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Battery -->
+    <instance moduleIdRef="Battery" modelIndex="0">
+      <properties>
+        <property name="label">Battery</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Charge Controller -->
+    <instance moduleIdRef="Charge_Controller" modelIndex="0">
+      <properties>
+        <property name="label">Charge Controller</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- LED Streetlight -->
+    <instance moduleIdRef="LED_Streetlight" modelIndex="0">
+      <properties>
+        <property name="label">LED Streetlight</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Ultrasonic Sensor -->
+    <instance moduleIdRef="Ultrasonic_Sensor" modelIndex="0">
+      <properties>
+        <property name="label">Ultrasonic Sensor</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- PIR Sensor -->
+    <instance moduleIdRef="PIR_Sensor" modelIndex="0">
+      <properties>
+        <property name="label">PIR Sensor</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Air Purification Module -->
+    <instance moduleIdRef="Air_Purification_Module" modelIndex="0">
+      <properties>
+        <property name="label">Air Purification Module</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Microcontroller (e.g., Arduino) -->
+    <instance moduleIdRef="Arduino_Uno" modelIndex="0">
+      <properties>
+        <property name="label">Microcontroller (Arduino)</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Sound Sensor -->
+    <instance moduleIdRef="Sound_Sensor" modelIndex="0">
+      <properties>
+        <property name="label">Sound Sensor</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Relay Module -->
+    <instance moduleIdRef="Relay_Module" modelIndex="0">
+      <properties>
+        <property name="label">Relay Module</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+    <!-- Voltage Regulator -->
+    <instance moduleIdRef="Voltage_Regulator" modelIndex="0">
+      <properties>
+        <property name="label">Voltage Regulator</property>
+      </properties>
+      <views>
+        <breadboardView>
+          <geometry x="0" y="0" z="0"/>
+        </breadboardView>
+        <schematicView>
+          <geometry x="0" y="0" z="0"/>
+        </schematicView>
+        <pcbView>
+          <geometry x="0" y="0" z="0"/>
+        </pcbView>
+      </views>
+    </instance>
+  </instances>
+  
+  <connections>
+    <!-- Solar Panel to Charge Controller -->
+    <connection from="Solar_Panel.pin1" to="Charge_Controller.pin1"/>
+    <connection from="Solar_Panel.pin2" to="Charge_Controller.pin2"/>
+    
+    <!-- Charge Controller to Battery -->
+    <connection from="Charge_Controller.pin3" to="Battery.pin1"/>
+    <connection from="Charge_Controller.pin4" to="Battery.pin2"/>
+    
+    <!-- Battery to Relay Module (NO and COM) -->
+    <connection from="Battery.pin1" to="Relay_Module.pin1"/>
+    <connection from="Battery.pin2" to="Relay_Module.pin2"/>
+    
+    <!-- Relay Module to LED Streetlight -->
+    <connection from="Relay_Module.pin3" to="LED_Streetlight.pin1"/>
+    <connection from="Relay_Module.pin4" to="LED_Streetlight.pin2"/>
+    
+    <!-- Ultrasonic Sensor to Microcontroller -->
+    <connection from="Ultrasonic_Sensor.pin1" to="Microcontroller.pin1"/>
+    <connection from="Ultrasonic_Sensor.pin2" to="Microcontroller.pin2"/>
+    <connection from="Ultrasonic_Sensor.pin3" to="Microcontroller.pin3"/>
+    <connection from="Ultrasonic_Sensor.pin4" to="Microcontroller.pin4"/>
+    
+    <!-- PIR Sensor to Microcontroller -->
+    <connection from="PIR_Sensor.pin1" to="Microcontroller.pin5"/>
+    <connection from="PIR_Sensor.pin2" to="Microcontroller.pin6"/>
+    <connection from="PIR_Sensor.pin3" to="Microcontroller.pin7"/>
+    
+    <!-- Sound Sensor to Microcontroller -->
+    <connection from="Sound_Sensor.pin1" to="Microcontroller.pin8"/>
+    <connection from="Sound_Sensor.pin2" to="Microcontroller.pin9"/>
+    <connection from="Sound_Sensor.pin3" to="Microcontroller.pin10"/>
+    
+    <!-- Air Purification Module to Power Source -->
+    <connection from="Air_Purification_Module.pin1" to="Battery.pin1"/>
+    <connection from="Air_Purification_Module.pin2" to="Battery.pin2"/>
+    
+    <!-- Microcontroller to Voltage Regulator -->
+    <connection from="Microcontroller.pin11" to="Voltage_Regulator.pin1"/>
+    <connection from="Microcontroller.pin12" to="Voltage_Regulator.pin2"/>
+  </connections>
+</fritzing>
